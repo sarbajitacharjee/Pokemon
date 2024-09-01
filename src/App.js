@@ -56,10 +56,12 @@ const App = () => {
   }
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-4xl text-center font-bold mb-8">Pokémon Gallery</h1>
+    <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-500 p-4">
+      <h1 className="text-5xl text-center font-extrabold text-white mb-8 drop-shadow-lg">
+        Pokémon Gallery
+      </h1>
       <SearchBar searchTerm={searchTerm} onSearch={handleSearch} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredPokemon.map((pokemon) => (
           <PokemonCard key={pokemon.id} pokemon={pokemon} />
         ))}
