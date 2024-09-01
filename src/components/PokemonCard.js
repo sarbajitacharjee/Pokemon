@@ -14,7 +14,7 @@ const PokemonCard = ({ pokemon }) => {
       <img
         src={sprites.front_default}
         alt={name}
-        className="w-28 h-28 mx-auto rounded-full border-4 border-white"
+        className="w-28 h-28 mx-auto rounded-full border-4 border-white border-dotted"
       />
       <h2 className="text-2xl font-extrabold text-white mt-4">{name.charAt(0).toUpperCase() + name.slice(1)}</h2>
       <div className="mt-4 text-sm text-white">
