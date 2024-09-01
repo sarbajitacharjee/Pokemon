@@ -4,7 +4,7 @@ const PokemonCard = ({ pokemon }) => {
   const { name, sprites, types, height, weight } = pokemon;
 
   //  background color classes
-  const colors = ['bg-red-200', 'bg-blue-400', 'bg-green-300', 'bg-yellow-400', 'bg-pink-400', 'bg-purple-500'];
+  const colors = ['bg-red-400', 'bg-blue-400', 'bg-green-300', 'bg-yellow-400', 'bg-orange-500', 'bg-purple-500'];
   
   // Select a random color class
   const bgColor = colors[Math.floor(Math.random() * colors.length)];
