@@ -24,7 +24,7 @@ const App = () => {
     const fetchPokemon = async () => {
       try {
         // API call to get the first 50 Pokémon
-        const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=50');
+        const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=150');
         const results = response.data.results;
 
         // Fetch detailed data for each Pokémon using their individual URLs
