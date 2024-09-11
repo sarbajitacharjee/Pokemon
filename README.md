@@ -13,7 +13,7 @@ This project displays a list of Pokémon characters with their details using the
 
 ## Demo
 
-Check out a live demo of the app here: [Demo Link]()
+Check out a live demo of the app here: [Demo Link](https://sarbajitacharjee.github.io/Pokemon/)
 
 ## Project Structure
 
